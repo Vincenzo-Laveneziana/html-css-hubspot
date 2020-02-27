@@ -8,7 +8,7 @@
 body{
   font-family: 'Open Sans' ;
   font-size: 15px;
-  height: 3000px;
+  height: 6000px;
   background: #F5F8FA;
 }
 
@@ -309,7 +309,6 @@ header{
 .p_row_3_col_2,
 .p_row_3_col_3 {
   width: calc(100% / 3);
-  height: 700px;
 }
 
 .p_row_3_col_1{
@@ -384,6 +383,49 @@ header{
   color: white;
   padding: 20px 35px;
 }
+
+/* fine sezione 1 */
+/* inizio sezione 2 */
+
+#info{
+  background: #00B9AA;
+  margin-top: 50px;
+  /* height: 700px; */
+  padding: 50px 50px 100px 50px;
+}
+.info_community{
+  background: gray;
+  height:200px;
+  width: 100%;
+}
+
+.tab{
+  background: white;
+}
+
+.tab1{
+  background: yellow;
+  /* height: 420px; */
+  width: 25%;
+}
+.tab_raw1{
+  padding: 10px;
+  height: 250px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.tab_raw2{
+  padding: 10px;
+  height: 250px;
+  border-left: 1px solid black;
+}
+
+.tab1:first-child .tab_raw1,
+.tab1:first-child .tab_raw2{
+  border-left: none;
+}
+
 
 
 
