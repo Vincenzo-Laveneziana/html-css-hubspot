@@ -1,0 +1,149 @@
+/* general */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans' ;
+  height: 2000px;
+  font-size: 15px;
+  /* background: grey; */
+}
+
+header{
+  position: relative;
+}
+
+/* general utilities */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.float_left{
+  float: left;
+}
+
+.a_nostyle a{
+  text-decoration: none;
+}
+
+.li_nostyle li{
+  list-style: none;
+  display: inline-block;
+}
+
+.w_50{
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #fe775a;
+  line-height: 23px;
+  text-decoration: none;
+
+}
+
+.btn_white{
+  padding: 5px 10px;
+  color: #fe775a;
+  font-weight: bold;
+}
+
+.btn_orange{
+  background: #fe775a;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* .btn_orange_2{
+  background: #7bbb00;
+  border: 0;
+  padding: 20px 25px;
+} */
+
+/* Header */
+
+/* first section header */
+
+/* header fixed col1 */
+.header_fixed{
+  background: #FFFFFF;
+  line-height: 80px;
+  border-bottom: 1px solid grey;+
+  position: fixed;
+  /* non so se è un bug ma per farla rimanere fissa devo inserire fixed 2 volte */
+  position: fixed;
+  width: 100%;
+
+}
+
+.h_f_col1 select {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: transparent transparent transparent transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.h_f_col1 a{
+  color: black;
+}
+
+.h_f_col1 span{
+  padding: 0 15px;
+}
+
+/* header fixed col 2 */
+.h_f_col2{
+  text-align: right;
+}
+
+.h_f_col2 li{
+  padding: 0 10px;
+}
+
+.h_f_col2 i{
+  color: #27afc4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
