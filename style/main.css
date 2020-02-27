@@ -7,9 +7,9 @@
 
 body{
   font-family: 'Open Sans' ;
-  height: 2000px;
   font-size: 15px;
-  /* background: grey; */
+  height: 2000px;
+  background: grey;
 }
 
 header{
@@ -52,7 +52,6 @@ header{
   border: 2px solid #fe775a;
   line-height: 23px;
   text-decoration: none;
-
 }
 
 .btn_white{
@@ -76,20 +75,21 @@ header{
 
 /* Header */
 
-/* first section header */
+/* first part header */
+.header_conteiner{
+  position: relative;
+}
 
-/* header fixed col1 */
 .header_fixed{
   background: #FFFFFF;
   line-height: 80px;
-  border-bottom: 1px solid grey;+
+  border-bottom: 1px solid grey;
   position: fixed;
-  /* non so se è un bug ma per farla rimanere fissa devo inserire fixed 2 volte */
-  position: fixed;
+  top: 0;
   width: 100%;
-
 }
 
+/* header fixed col1 */
 .h_f_col1 select {
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -115,12 +115,70 @@ header{
 
 .h_f_col2 li{
   padding: 0 10px;
+  display: inline-block;
 }
 
 .h_f_col2 i{
   color: #27afc4;
 }
 
+/* second part header */
+
+.header_menu{
+  margin-top: 80px;
+  line-height: 80px;
+  background: #FFFFFF
+}
+
+/* header menu col1 */
+.h_m_col1 img{
+  vertical-align: middle;
+}
+
+
+/* header menu col 2 */
+.h_m_col2{
+  text-align: right;
+}
+
+.h_m_col2 a{
+  padding: 0 7px;
+  color: grey;
+  font-weight: bold;
+}
+
+.h_m_col2 i{
+  padding-left: 10px;
+  color: grey;
+  font-weight: bold;
+}
+
+/* third part header */
+/* Jumbotron */
+.background_jumbotron{
+  background: #FFF1EE;
+  height: 600px;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron_text {
+  width: 500px;
+  height: 100%;
+  /* transform: translateY(-50%); */
+}
+
+.jumbotron_text h1 {
+  margin-bottom: 50px;
+  font-size: 350%;
+  color: black;
+  font-weight:  bold;
+}
 
 
 
