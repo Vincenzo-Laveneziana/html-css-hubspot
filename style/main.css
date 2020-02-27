@@ -67,11 +67,13 @@ header{
   font-weight: bold;
 }
 
-/* .btn_orange_2{
-  background: #7bbb00;
+.btn_orange_2{
+  background: #fe775a;
   border: 0;
   padding: 20px 25px;
-} */
+  color: white;
+  margin: 25px 0;
+}
 
 /* Header */
 
@@ -158,27 +160,43 @@ header{
 .background_jumbotron{
   background: #FFF1EE;
   height: 600px;
+  border-bottom: 3px solid gray;
 }
 
+
+
 .jumbotron {
-  height: 600px;
+  height: 100%;
   background-image: url('../img/jumbotron.png');
   background-size: cover;
-  background-position: center;
+  padding: 50px 0;
 }
 
 .jumbotron_text {
-  width: 500px;
+  width: 600px;
   height: 100%;
   /* transform: translateY(-50%); */
 }
 
 .jumbotron_text h1 {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   font-size: 350%;
-  color: black;
+  color: #33475B ;
   font-weight:  bold;
 }
+.jumbotron_text p {
+  font-size: 16px;
+  color: #33475B;
+  font-weight:  bold;
+}
+.jumbotron_text :nth-last-child(1) {
+  font-size: 11px;
+  color: #33475B ;
+  font-weight:  bold;
+}
+
+
+
 
 
 
