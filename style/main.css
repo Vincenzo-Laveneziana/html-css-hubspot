@@ -9,7 +9,7 @@ body{
   font-family: 'Open Sans' ;
   font-size: 15px;
   height: 2000px;
-  background: grey;
+  /* background: grey; */
 }
 
 header{
@@ -117,7 +117,6 @@ header{
 
 .h_f_col2 li{
   padding: 0 10px;
-  display: inline-block;
 }
 
 .h_f_col2 i{
@@ -159,14 +158,13 @@ header{
 /* Jumbotron */
 .background_jumbotron{
   background: #FFF1EE;
-  height: 600px;
-  border-bottom: 3px solid gray;
+  height: 595px;
+  border-bottom: 3px solid #33475B;
+  overflow: hidden;
 }
 
-
-
 .jumbotron {
-  height: 100%;
+  height: 600px;
   background-image: url('../img/jumbotron.png');
   background-size: cover;
   padding: 50px 0;
@@ -175,13 +173,12 @@ header{
 .jumbotron_text {
   width: 600px;
   height: 100%;
-  /* transform: translateY(-50%); */
 }
 
 .jumbotron_text h1 {
   margin-bottom: 15px;
   font-size: 350%;
-  color: #33475B ;
+  color: #33475B;
   font-weight:  bold;
 }
 .jumbotron_text p {
@@ -194,6 +191,46 @@ header{
   color: #33475B ;
   font-weight:  bold;
 }
+
+/* Main */
+.p_row_1{
+  margin: 100px auto;
+  text-align: center;
+}
+
+.p_row_1 img{
+  height: 200px;
+}
+
+.p_row_1 h2{
+  font-size: 35px;
+  color: #33475B;
+  font-weight: bold;
+}
+
+.p_row_1 p{
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 70%;
+  font-size: 15px;
+  color: #33475B;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+/* row 2 section plain */
+.p_row_2{
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.p_row_2_col_1 img{
+  height: 100px;
+}
+
+
+
 
 
 
