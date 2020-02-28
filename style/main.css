@@ -8,7 +8,6 @@
 body{
   font-family: 'Open Sans' ;
   font-size: 15px;
-  /* height: 6000px; */
   background: #F5F8FA;
   min-width: 1200px;
 }
@@ -19,7 +18,7 @@ header{
 
 /* general utilities */
 
-.clearfix::after {
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -48,7 +47,7 @@ header{
   width: 50%;
 }
 
-.btn {
+.btn{
   display: inline-block;
   border-radius: 5px;
   border: 2px solid #fe775a;
@@ -98,7 +97,8 @@ header{
 }
 
 /* header fixed col1 */
-.h_f_col1 select {
+
+.h_f_col1 select{
   -webkit-appearance: none;
   -ms-appearance: none;
   -moz-appearance: none;
@@ -106,14 +106,24 @@ header{
   border-color: transparent transparent transparent transparent;
   background-color: transparent;
   cursor: pointer;
+  color: #33475B;
+  font-weight: bold;
+}
+
+.h_f_col1 i{
+  color: #33475B;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .h_f_col1 a{
-  color: black;
+  color: #33475B;
+  font-weight: bold;
 }
 
 .h_f_col1 span{
   padding: 0 15px;
+  color: #33475B;
 }
 
 /* header fixed col 2 */
@@ -130,7 +140,6 @@ header{
 }
 
 /* second part header */
-
 .header_menu{
   margin-top: 80px;
   line-height: 80px;
@@ -141,7 +150,6 @@ header{
 .h_m_col1 img{
   vertical-align: middle;
 }
-
 
 /* header menu col 2 */
 .h_m_col2{
@@ -164,12 +172,11 @@ header{
 /* Jumbotron */
 .background_jumbotron{
   background: linear-gradient(0.25turn, #fff6ef, #FFF1EE, #FFF1EE);
-  height: 600px;
-  /* border-bottom: 3px solid #33475B; */
+  /* height: 600px; */
   overflow: hidden;
 }
 
-.jumbotron {
+.jumbotron{
   position: relative;
   height: 600px;
   background-image: url('../img/jumbotron.png');
@@ -178,20 +185,21 @@ header{
   z-index: 1;
 }
 
-.jumbotron_text {
+.jumbotron_text{
   padding-top: 40px;
   width: 600px;
   height: 100%;
 }
 
-.jumbotron_text h1 {
+.jumbotron_text h1{
   margin-bottom: 35px;
   font-size: 45px;
   line-height: 55px;
   color: #33475B;
   font-weight:  bold;
 }
-.jumbotron_text p {
+
+.jumbotron_text p{
   width: 500px;
   font-size: 15px;
   color: #33475B;
@@ -202,14 +210,14 @@ header{
   padding: 20px 25px;
   margin: 25px 0;
 }
-.jumbotron_text :nth-last-child(1) {
+
+.jumbotron_text :nth-last-child(1){
   font-size: 11px;
-  color: #33475B ;
+  color: #33475B;
   font-weight:  bold;
 }
 
-
-.boottom_jumbotron {
+.boottom_jumbotron{
   bottom: 0;
   position: absolute;
   height: 71px;
@@ -219,7 +227,7 @@ header{
   border-bottom: 3px solid #33475b;
 }
 
-.boottom_jumbotron2 {
+.boottom_jumbotron2{
   left: 50%;
   bottom: 0;
   position: absolute;
@@ -286,6 +294,7 @@ header{
   width: 170px;
   /* height: 120px; */
 }
+
 .p_row_2_col_1 .btn_orange_2{
   padding: 15px 30px;
   margin: 25px 0;
@@ -319,7 +328,7 @@ header{
   font-weight: bold;
 }
 
-.p_row_2_col_2 i {
+.p_row_2_col_2 i{
   font-size: 18px;
 }
 
@@ -335,7 +344,7 @@ header{
 
 .p_row_3_col_1,
 .p_row_3_col_2,
-.p_row_3_col_3 {
+.p_row_3_col_3{
   width: calc(100% / 3);
 }
 
@@ -396,13 +405,13 @@ header{
   padding: 15px 0;
 }
 
-.box_info {
+.box_info{
   text-align: left;
   line-height: 25px;
   padding-bottom: 45px;
 }
 
-.box_info span {
+.box_info span{
   padding: 0;
   display: block;
 }
@@ -420,6 +429,7 @@ header{
   margin-top: 50px;
   padding: 50px 50px 100px 50px;
 }
+
 .info_community{
   text-align: center;
   /* background: gray; */
@@ -662,11 +672,9 @@ footer{
   padding: 50px 0;
 }
 
-.f_row3_col1 h4{
+.f_row3_col1 h4 , a{
   color: white;
 }
-
-
 
 .f_row3_col2{
   text-align: right;
@@ -683,8 +691,5 @@ footer{
 .f_row3_col2 a:hover{
   color: #82B7E2;
 }
-
-
-
 
 /*  */
