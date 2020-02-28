@@ -163,9 +163,9 @@ header{
 /* third part header */
 /* Jumbotron */
 .background_jumbotron{
-  background: #FFF1EE;
+  background: linear-gradient(0.25turn, #fff6ef, #FFF1EE, #FFF1EE);
   height: 600px;
-  border-bottom: 3px solid #33475B;
+  /* border-bottom: 3px solid #33475B; */
   overflow: hidden;
 }
 
@@ -563,9 +563,11 @@ header{
 /* footer */
 footer{
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
   background: #33475B;
 }
+
+/* footer row 1 */
 
 .f_row1_col{
   margin-top: 35px;
@@ -595,7 +597,6 @@ footer{
 }
 
 .f_row1_col .btn{
-
   margin-top: 20px;
   text-align: center;
   width: 75%;
@@ -604,15 +605,19 @@ footer{
   border: 1px solid white;
 }
 
+.footer_ico a,
+.footer_ico a:hover{
+  display: inline-block;
+}
+
 .f_row1_col i{
   font-size: 18px;
   color: #CBD6E2;
   padding: 20px 13px 0 13px;
-  /* font-weight: bold; */
 }
 
 .fa-facebook-f:hover{
-  color: #007dff;;
+  color: #007dff;
 }
 
 .fa-instagram:hover{
@@ -631,6 +636,53 @@ footer{
   color: white;
 }
 
+
+/* footer row 2 */
+
+.footer_row2{
+  margin-top: 45px;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 1px solid #CBD6E2;
+}
+
+.footer_row2 a{
+  padding: 0 15px;
+  color: #CBD6E2;
+  font-weight: bold;
+}
+
+.footer_row2 a:hover{
+  color: #82B7E2;
+}
+
+/* footer_row3 */
+.f_row3_col1{
+  /* background: black; */
+  padding: 50px 0;
+}
+
+.f_row3_col1 h4{
+  color: white;
+}
+
+
+
+.f_row3_col2{
+  text-align: right;
+  line-height: 130px;
+  /* background: blue; */
+}
+
+.f_row3_col2 a{
+  color: #CBD6E2;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.f_row3_col2 a:hover{
+  color: #82B7E2;
+}
 
 
 
