@@ -10,6 +10,7 @@ body{
   font-size: 15px;
   height: 6000px;
   background: #F5F8FA;
+  min-width: 1200px;
 }
 
 header{
@@ -25,7 +26,8 @@ header{
 }
 
 .container{
-  width: 1200px;
+  width: 95%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -416,7 +418,6 @@ header{
 #info{
   background: #00B9AA;
   margin-top: 50px;
-  /* height: 700px; */
   padding: 50px 50px 100px 50px;
 }
 .info_community{
