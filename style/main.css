@@ -382,7 +382,7 @@ header{
   text-align: center;
   font-size: 17px;
   color: #33475B;
-  font-weight: bold;
+  font-weight: 600;
   padding-bottom: 60px;
   border-bottom: 1px solid black;
   margin-bottom: 30px;
@@ -476,7 +476,88 @@ header{
   font-size: 16px;
   color: white;
 }
+/* fine sezione 2 */
+/* inizio sezione 3 */
+/* sezione 3 riga 1 */
+.partners_row1{
+  width: 90%;
+  margin: 0 auto;
+}
 
+
+/* column 1 */
+.p_row1_col1{
+  width: 30%;
+  padding: 50px;
+}
+
+.p_row1_col1 h2{
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: #33475B;
+}
+
+.p_row1_col1 p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #33475B;
+}
+
+/* column 2 */
+.p_row1_col2{
+  width: 70%;
+  padding: 30px 0;
+
+}
+
+.container_img{
+  width: 600px;
+  margin-left: 25%;
+}
+
+.p_row1_col2 img{
+  vertical-align: middle;
+  width: 120px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* sezione 3 riga 2 */
+
+/* column 1 */
+.p_row2_col1{
+  height: 400px;
+  padding: 20px 50px 20px 20px;
+}
+
+.p_row2_col1 h2{
+  color: #33475B;
+  font-size: 25px;
+  width: 400px;
+  font-weight: bold;
+}
+
+.p_row2_col1 p{
+  color: #33475B;
+  font-size: 15px;
+  width: 450px;
+  padding: 30px 0;
+}
+
+.p_row2_col1 .btn_orange_2{
+  padding: 15px 30px;
+}
+
+/* colun 2 */
+.p_row2_col2{
+  height: 400px;
+}
+
+.p_row2_col2 img{
+  height: 300px;
+  margin-left: 40%;
+}
 
 
 
